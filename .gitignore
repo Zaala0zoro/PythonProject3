@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+static/
+*.pot
+*.pyc
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+*.env
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# Migrations (optional – თუ არ გინდა git-ში ატვირთვა)
+# Uncomment if you prefer not to track migration files
+# /migrations/*
+!*/migrations/__init__.py
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.log
+*.env
+
+# macOS & Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# pytest / coverage / cache
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+
+# Git
+.gitignore
+
+# System / Temporary / Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+*.log
+*.sqlite3
+*.db
+*.sqlite
+*.class
+
+# IDE / Editor temp files
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+.idea/
+*.code-workspace
+
+# Node / frontend (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
